@@ -1,14 +1,24 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+
+[
+  {
+    "country": "USA",
+    "countryInfo": {
+      "_id": 840,
+      "iso2": "US",
+      "iso3": "USA",
+      "lat": 38,
+      "long": -97,
+      "flag": "https://raw.githubusercontent.com/NovelCOVID/API/master/assets/flags/us.png"
+    },
+    "cases": 207613,
+    "todayCases": 19083,
+    "deaths": 4611,
+    "todayDeaths": 558,
+    "recovered": 8762,
+    "active": 194240,
+    "critical": 4926,
+    "casesPerOneMillion": 627,
+    "deathsPerOneMillion": 14,
+    "updated": 1585768964452
   }
-}
+]
